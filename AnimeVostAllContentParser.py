@@ -63,7 +63,7 @@ def getAnime(url):
     }
 # Спарсить весь контент
 arrYears = getAllYears(domain)
-for year in [2008]:
+for year in arrYears:
     resPg = requests.get(f"{domain}god/{year}/")
     soupPg = BeautifulSoup(resPg.text, "html.parser")
     numberPages = getNumberPages(soupPg)
