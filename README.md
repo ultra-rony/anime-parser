@@ -1,11 +1,11 @@
 # AnimeVost anime parser
 
 ```bash
-git clone ${repo}
+git clone https://github.com/ultra-rony/anime-parser.git
 ```
 
 ```bash
-cd ${repo}
+cd anime-parser
 ```
 
 ```bash
