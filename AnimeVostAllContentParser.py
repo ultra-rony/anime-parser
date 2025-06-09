@@ -5,7 +5,7 @@ import re
 import colorama 
 from colorama import Fore, Style
 
-domain = "https://v5.vost.pw/"
+domain = "https://v7.vost.pw/"
 # Получить все года выходов аниме
 def getAllYears(url):
     result = requests.get(url)
